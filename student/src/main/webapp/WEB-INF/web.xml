@@ -1,0 +1,21 @@
+<web-app>
+    	<welcome-file-list>
+    			<welcome-file>StudentDetails.html</welcome-file>
+    	</welcome-file-list>
+
+    
+    
+    
+     <servlet>
+       		<servlet-name>aa</servlet-name>
+       		<servlet-class>com.besant.StudentDetails</servlet-class>
+     </servlet>
+
+
+<servlet-mapping>
+    <servlet-name>aa</servlet-name>
+    <url-pattern>/StudentDetails</url-pattern>
+</servlet-mapping>
+
+     
+</web-app>
